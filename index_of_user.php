@@ -217,7 +217,7 @@ body > a:hover { transform: translateY(-2px); }
     .book form a { top: 16px; right: 16px; }
     body > a { right: 14px; bottom: 14px; padding: 10px 16px; }
 }
- </style>
+ </style>  
 </head>
 <body>
   <center>Hi  <?php echo $_SESSION['name'];?></center>
@@ -241,7 +241,7 @@ if(mysqli_num_rows($select) >0 ){
 
   <form method="post">
         <input type="hidden" name="cart" value = "<?php echo $row['id']?>">
-         <a href="cart.php?id=<?php echo $row['id'];  ?>" name="car"><i class="fa-solid fa-cart-shopping" ></i></a>
+         <a href="cart.php?id=<?php echo $row['id'];  ?>" name="car"><i class="fa-solid fa-file-lines" ></i></a>
     </form>
  
 <?php
