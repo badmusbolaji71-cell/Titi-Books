@@ -1,4 +1,6 @@
 <?php
+session_start();
+header("location:login.php");
 $name = $confirm_password = $password =$passworderror=$fillall=$confirm_error="";
 $servername = "localhost";
 $username = "root";
