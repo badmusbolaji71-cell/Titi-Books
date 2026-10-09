@@ -82,7 +82,7 @@ input{
             <input type="password" name="password" id="">
         </label>
         <input type="submit" value="submit" name = "submit">
-        
+        <a href="user_sign_up.php">Create account</a>
     </form>
 </body>
 </html>
